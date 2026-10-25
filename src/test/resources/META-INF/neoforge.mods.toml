@@ -1,0 +1,23 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "dynassetgen_test"
+version = "0.0.0"
+displayName = "DynAssetGen Test"
+description = "Test mod for DynAssetGen, only used by the JUnit tests."
+
+[[dependencies.dynassetgen_test]]
+modId = "neoforge"
+type = "required"
+versionRange = "[26.1.2.95,26.2)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.dynassetgen_test]]
+modId = "minecraft"
+type = "required"
+versionRange = "[26.1,26.2)"
+ordering = "NONE"
+side = "BOTH"
